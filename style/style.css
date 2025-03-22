@@ -1,0 +1,299 @@
+* {
+    box-sizing: border-box;
+    font-family: "Inconsolata", monospace;
+}
+
+body {
+    background-image: url(../assets/images/background-desktop.png);
+    background-repeat: no-repeat;
+    color: white;
+    
+}
+
+nav {
+    text-align: center;
+    padding-top: 10px;
+}
+
+nav .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+nav .logo img {
+    width: 20px;
+}
+
+nav .logo b {
+    font-size: 21px;
+    margin-left: 10px;
+    
+}
+
+nav h1 {
+    font-size: 48px;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 5%;
+}
+
+nav h1 strong {
+    background: linear-gradient(to right, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+    
+    
+}
+
+nav p {
+    font-size: 21px;
+    padding-top: .5%;
+}
+
+nav p strong {
+    background: linear-gradient(to right, hsl(7, 86%, 67%), hsl(0, 0%, 100%));
+}
+
+main {
+    margin: 0 35%;
+    padding-top: 10px;
+}
+
+
+
+main .photo {
+    border: 1px dashed white;
+    width: 350px;
+    padding: 3% 4%;
+    text-align: center;
+}
+
+
+main .photo p {
+    font-size: 16px;
+    padding-left: 10%;
+}
+
+main h4 {
+    text-align: left;
+}
+
+main img {
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 2%;
+}
+
+main p {
+    display: flex;
+    font-size: 12px;
+    align-items: center;
+    
+    
+    
+}
+
+main p .info {
+    border: none;
+
+}
+
+main input {
+    width: 88%;
+    padding: 2%;
+    border-radius: 5px;
+    border: none;
+}
+
+main .btn {
+    margin-top: 5%;
+    text-align: center;
+    padding: 2%;
+    width: 88%;
+    border-radius: 5px;
+    background-color: hsl(7, 88%, 67%);
+    cursor: pointer;
+}
+
+
+ .ticket {
+    border: 1px dashed white;
+    background-color: hsl(245, 19%, 35%);
+    height: 200px;
+}
+
+.ticket .logo {
+    padding: 5%;
+}
+
+.ticket .logo img {
+   width: 10%;
+   border: none;
+}
+
+
+.ticket .logo b {
+    font-size: 22px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.ticket h5 {
+    margin-left: 40px;
+    
+}
+
+
+.ticket div .avatar {
+    width: 200%;
+    border-radius: 10px;
+}
+
+.ticket h4 {
+    position: relative;
+    left: 20%;
+    bottom: 70px;
+    line-height: 1px;
+    
+
+}
+
+.ticket i {
+    padding-right: 5px;
+}
+
+
+.number {
+    border: 1px solid white;
+    width: 200px;
+    position: relative;
+    left: 88%;
+    bottom: 247px;
+    transform: rotate(90deg);
+    text-align: center;
+    padding: 10%;
+    border-bottom: dashed;
+    background-color: hsl(245, 15%, 58%);
+    
+}
+
+@media screen and (max-width: 568px) {
+
+    body {
+        background-image: url(../assets/images/background-mobile.png);
+        
+        
+    }
+
+ 
+    
+    nav .logo img {
+        width: 30px;
+    }
+    
+    nav .logo b {
+        font-size: 27px;
+        margin-left: 14px;
+        
+    }
+    
+    nav h1 {
+        font-size: 32px;
+        width: 418px;
+     
+    }
+    
+    nav p {
+        font-size: 18px;
+        width: 338px;
+        padding-top: 4%;
+        line-height: 24px;
+        margin: 0 auto;
+    }
+
+    
+    main {
+        margin: 0 16%;
+        
+    }
+    
+    
+    
+    main .photo {
+        padding: 5% 6%;
+        
+    }
+    
+    
+    
+    main input {
+        width: 95%;
+        padding: 4%;
+        background-color: hsl(245, 15%, 58%);
+    }
+    
+    main .btn {
+        margin-top: 10%;
+        padding: 4%;
+        width: 95%;
+        font-size: 21px;
+    }
+
+
+    .ticket {
+    margin-top: 10%;
+    position: relative;
+    right: 10%;
+
+
+    }
+
+    .ticket .logo {
+    padding: 5%;
+
+    }
+
+    .ticket .logo img {
+    width: 12%;
+    
+    }
+
+    .ticket .logo b {
+        bottom: 15px;
+    }
+
+    .ticket h5 {
+        margin-left: 50px;
+        position: relative;
+        bottom: 20px;
+    }
+
+
+    .ticket div .avatar {
+        position: relative;
+        bottom: 20px;
+    }
+
+    .ticket h4 {
+        position: relative;
+        left: 25%;
+        bottom: 90px;
+        line-height: 1px;
+
+    }
+
+
+    .number {
+        font-size: 27px;
+        position: relative;
+        left: 87%;
+        bottom: 258px;
+    
+    
+    
+        
+    }
+
+
+}
